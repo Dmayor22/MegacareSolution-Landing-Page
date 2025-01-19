@@ -10,13 +10,44 @@ body {
     color: #333;
 }
 
-.container {
-    width: 90%;
+/* Header */
+.header {
+    border: 2px solid red;
+    width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
-/* Header */
+.container {
+  border: 2px solid blue;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.container ul a {
+    text-decoration: none;
+}
+
+
+
+
+.header .logo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: green;
+    font-weight: 900;
+    padding: 2px;
+}
+
+
+
 
 
 /* Hero Section */
