@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+ 
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -12,52 +13,46 @@ body {
 
 /* Header */
 .header {
+  border: 2px solid red;
   width: 100%;
+  margin: 0px auto;
   max-width: 1200px;
-  margin: 20px auto;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .container nav {
-    display: hidden;
-}
-.container .nav ul {
-  display: flex;
-  list-style: none;
-  gap: 30px;
+  visibility: hidden;
 }
 
-.container ul a {
+/* .container ul a {
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   transition: 0.1s ease-in-out;
-}
+} */
 
-.container ul a:hover {
+/* .container ul a:hover {
   border-bottom: 2px solid blue;
-}
+} */
 
-.header .logo {
+/* .header .logo {
   font-size: 1rem;
   font-weight: 600;
   color: green;
   font-weight: 900;
   padding: 2px;
-}
+} */
 
-.container .btn {
+/* .container .btn {
   background: #f4a261;
   font-weight: 600;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-}
+} */
 
 /* Hero Section */
 /* .hero {
