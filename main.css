@@ -1,43 +1,44 @@
 /* General Styles */
-body {
+
+/* body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
-}
+} */
 
-.container {
+/* .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 /* Header */
-.header {
+/* .header {
     background: navy;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-}
+} */
 
-.header .nav a {
+/* .header .nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
-}
+} */
 
-.header .btn {
+/* .header .btn {
     background: #f4a261;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-}
+} */
 
 /* Hero Section */
-.hero {
+/* .hero {
     background: url('cargo-bg.jpg') no-repeat center center/cover;
     height: 80vh;
     color: white;
@@ -45,9 +46,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} */
 
-.hero-buttons .btn {
+/* .hero-buttons .btn {
     margin: 10px;
     padding: 10px 20px;
     background: #0077b6;
@@ -55,40 +56,40 @@ body {
     color: white;
     border-radius: 5px;
     text-decoration: none;
-}
+} */
 
 /* Features Section */
-.features-container {
+/* .features-container {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
-}
+} */
 
-.feature-item i {
+/* .feature-item i {
     margin-bottom: 10px;
     color: #0077b6;
-}
+} */
 
 /* Testimonials Section */
-.testimonials-container {
+/* .testimonials-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+} */
 
-.testimonial-item {
+/* .testimonial-item {
     margin: 10px 0;
     padding: 20px;
     background: #f8f9fa;
     border-radius: 10px;
     max-width: 600px;
-}
+} */
 
 /* Footer */
-.footer-socials a {
+/* .footer-socials a {
     color: white;
     margin: 0 5px;
     text-decoration: none;
     font-size: 1.5em;
-}
+} */
