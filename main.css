@@ -18,12 +18,13 @@ body {
 }
 
 .container {
-  border: 2px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.container nav {
+    display: hidden;
+}
 .container .nav ul {
   display: flex;
   list-style: none;
@@ -31,11 +32,14 @@ body {
 }
 
 .container ul a {
+  font-size: 1.1rem;
+  font-weight: 600;
   text-decoration: none;
   transition: 0.1s ease-in-out;
 }
+
 .container ul a:hover {
-    border-bottom: 2px solid blue;
+  border-bottom: 2px solid blue;
 }
 
 .header .logo {
@@ -46,12 +50,13 @@ body {
   padding: 2px;
 }
 
-.header .btn {
-    background: #f4a261;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+.container .btn {
+  background: #f4a261;
+  font-weight: 600;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 /* Hero Section */
@@ -110,3 +115,6 @@ body {
     text-decoration: none;
     font-size: 1.5em;
 } */
+
+@media (min-weight: 400px) {
+}
