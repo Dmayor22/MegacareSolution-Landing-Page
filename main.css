@@ -11,8 +11,8 @@ body {
 
 /* Header */
 .header {
-  border: 2px solid red;
   width: 100%;
+  margin-top: 10px;
 }
 
 .container {
@@ -21,24 +21,39 @@ body {
   align-items: center;
 }
 .container nav {
-  visibility: hidden;
+  display: none;
 }
 .header .logo {
   font-size: 1rem;
   font-weight: 600;
   color: green;
   font-weight: 900;
-  padding: 2px;
+  padding: 6px;
+  cursor: pointer;
 }
 
-/* .container .btn {
+.quote_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+#quote {
   background: #f4a261;
-  font-weight: 600;
-  color: white;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border-radius: 5px;
+  color: #fff;
   text-decoration: none;
-} */
+  font-weight: 600;
+}
+
+#btn {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+
 
 /* Hero Section */
 /* .hero {
@@ -99,7 +114,6 @@ body {
 
 @media (min-width: 769px) {
   .header {
-    border: 2px solid red;
     width: 100%;
     margin: 10px auto;
     max-width: 1200px;
@@ -110,7 +124,7 @@ body {
     align-items: center;
   }
   .container nav {
-    visibility: visible;
+    display:block
   }
   .nav ul {
     list-style: none;
@@ -126,7 +140,7 @@ body {
   .container ul a:hover {
     border-bottom: 2px solid blue;
   }
-  .btn {
-    visibility: hidden;
+  #btn {
+    display: none;
   }
 }
