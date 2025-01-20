@@ -24,7 +24,7 @@ body {
   display: none;
 }
 .header .logo {
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: 600;
   color: green;
   font-weight: 900;
@@ -113,6 +113,9 @@ body {
 } */
 
 @media (min-width: 769px) {
+  .header .logo{
+    font-size: 1rem;
+  }
   .header {
     width: 100%;
     margin: 10px auto;
